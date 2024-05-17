@@ -43,16 +43,12 @@ Bob->L: Log transaction
 ```
 
 ```plantuml
-
 participant Last order 30
 participant Middle order 20
 participant First order 10
-
-
 ```
 
 ```plantuml
-
 participant Participant [
     =Title
     ----
@@ -62,8 +58,6 @@ participant Participant [
 participant Bob
 
 Participant -> Bob
-
-
 ```
 
 ```plantuml
@@ -74,14 +68,12 @@ Alice -> "Bob()" : Hello
 ' "Bob()" -> Long as "This is very\nlong"
 Long --> "Bob()" : ok
 @enduml
-
 ```
 
 ```plantuml
 @startuml
 Alice -> Alice: This is a signal to self.\nIt also demonstrates\nmultiline \ntext
 @enduml
-
 ```
 
 ```plantuml
@@ -99,7 +91,6 @@ Bob o\\-- Alice
 Bob <-> Alice
 Bob <->o Alice
 @enduml
-
 ```
 
 ```plantuml
@@ -117,7 +108,6 @@ Bob -> Alice : Yet another authentication Request
 Bob <- Alice : Yet another authentication Response
 
 @enduml
-
 ```
 
 ```plantuml
@@ -145,7 +135,6 @@ else 另一种失败
 
 end
 @enduml
-
 ```
 
 
@@ -158,7 +147,6 @@ note across: 新方法：\n""note across""
 Bob->Alice
 hnote across: 跨越所有参与者的备注。
 @enduml
-
 ```
 
 ```plantuml
@@ -188,7 +176,6 @@ hnote across: 跨越所有参与者的备注。
   "spouse": null
 }
 @endjson
-
 ```
 
 ```plantuml
@@ -233,7 +220,6 @@ hnote across: 跨越所有参与者的备注。
   "spouse": null
 }
 @endjson
-
 ```
 
 ```plantuml
@@ -251,7 +237,6 @@ hnote across: 跨越所有参与者的备注。
 *** <s>Raspmbc</s> => OSMC
 *** <s>Raspyfi</s> => Volumio
 @endmindmap
-
 ```
 
 ```plantuml
@@ -272,7 +257,6 @@ hnote across: 跨越所有参与者的备注。
 --- Windows 8
 --- Windows 10
 @endmindmap
-
 ```
 
 ```plantuml
@@ -296,9 +280,4 @@ mindmapDiagram {
   * another second level node <<your_style_name>>
  * another first level node <<green>>
 @endmindmap
-
-```
-
-```plantuml
-
 ```

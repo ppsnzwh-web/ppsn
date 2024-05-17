@@ -1,2 +1,0 @@
-# ppsn
-ppsnzwh
